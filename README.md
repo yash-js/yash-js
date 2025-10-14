@@ -39,7 +39,7 @@ I'm a **Full-Stack Developer** with **4+ years of experience** building scalable
 ---
 
 ## 💬 Get in Touch
-- **Email:** yashpurani@example.com  
+- **Email:** contact@yashpurani.com  
 - **LinkedIn:** [linkedin.com/in/yashpurani](https://linkedin.com/in/yashpurani)  
 - **Portfolio:** [yashpurani.com](https://www.yashpurani.com)
 
