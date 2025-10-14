@@ -23,7 +23,7 @@ I'm a **Full-Stack Developer** with **4+ years of experience** building scalable
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 ## 💬 Get in Touch
-- **Email:** yashpurani@example.com  
+- **Email:** contact@yashpurani.com 
 - **LinkedIn:** [linkedin.com/in/yashpurani](https://linkedin.com/in/yashpurani)  
 - **Portfolio:** [yashpurani.com](https://www.yashpurani.com)
 
