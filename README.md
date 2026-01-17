@@ -1,48 +1,108 @@
-# Hi there, I'm Yash 👋
+# 👋 Hi, I'm Yash Purani
 
-I'm a **Full-Stack Developer** with **4+ years of experience** building scalable web and mobile applications. I love creating efficient, user-friendly solutions and exploring the latest technologies in the JavaScript ecosystem and beyond.
+**Full-Stack Product Engineer | SaaS & AI-Integrated Applications**
+
+I build **scalable, production-ready web and mobile applications** with a strong focus on **backend architecture, performance, and clean system design**.  
+With **4+ years of experience**, I’ve shipped products across **ERP systems, quick commerce, on-demand services, and AI-powered SaaS platforms**.
+
+I enjoy owning features **end-to-end** — from system design to deployment — and shipping fast without compromising code quality.
 
 ---
 
-## 🛠 Tech Stack & Tools
+## 🚀 What I Do
+
+- Build full-stack applications from scratch
+- Design scalable APIs and backend systems
+- Work with both relational and NoSQL databases
+- Deploy and maintain applications on AWS & serverless platforms
+- Use AI-powered developer tools to accelerate delivery responsibly
+
+---
+
+## 🧠 Tech Stack
 
 ### Languages
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
+- JavaScript (ES6+)
+- Python
+- Java
 
 ### Frontend
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![ShadCN UI](https://img.shields.io/badge/ShadCN_UI-7F5AF0?style=for-the-badge&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
+- React
+- React Native
+- Next.js
+- Tailwind CSS
+- shadcn/ui
+- HTML5 Canvas
 
-### Backend & Cloud
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![Serverless](https://img.shields.io/badge/Serverless-F7DF1E?style=for-the-badge&logo=serverless&logoColor=black)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+### Backend
+- Node.js
+- Express.js
+- REST APIs
+- Serverless Functions
 
-### Databases
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+### Databases & ORM
+- MongoDB
+- PostgreSQL
+- MySQL
+- Prisma
+- Sequelize
 
-### AI & Productivity
-![Cursor AI](https://img.shields.io/badge/Cursor_AI-FF6D00?style=for-the-badge&logo=ai&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+### Cloud & DevOps
+- AWS (EC2, Serverless)
+- Vercel
+- Supabase
+- Docker
+
+### Tooling
+- Cursor AI
+- Git & GitHub
+- Postman
+- Cypress
+- Electron.js
 
 ---
 
-## 💬 Get in Touch
-- **Email:** contact@yashpurani.com  
-- **LinkedIn:** [linkedin.com/in/yashpurani](https://linkedin.com/in/yashpurani)  
-- **Portfolio:** [yashpurani.com](https://www.yashpurani.com)
+## 🏗️ Selected Work
+
+### 🔹 AI-Powered SaaS Platform
+- Led end-to-end development of an AI SaaS platform used by global brands
+- Owned architecture, feature delivery, and deployment
+- Stack: Next.js, Node.js, Prisma, PostgreSQL, AWS
+
+### 🔹 ERP Device Management System
+- Built a centralized portal to manage smart devices across large networks
+- Enabled faster deployments and reduced operational overhead
+- Stack: React, Node.js, AWS
+
+### 🔹 On-Demand Services 
+- Improved backend performance and API reliability
+- Extended admin dashboards with role-based access and real-time insights
+- Stack: Node.js, Express, MongoDB, React
+
+### 🔹 Custom Graphic Design Tool
+- Built a Canva-like design tool using HTML5 Canvas
+- No third-party editors or design libraries
+- Stack: Next.js, Canvas API
 
 ---
 
-> "Code is like humor. When you have to explain it, it’s bad." – Cory House
+## 💡 Engineering Principles
+
+- Clean, maintainable, and scalable code
+- Strong API contracts and data modeling
+- Pragmatic engineering over over-engineering
+- Async-friendly, ownership-driven collaboration
+- Ship fast, improve continuously
+
+---
+
+## 📫 Connect With Me
+
+- **Portfolio:** https://www.yashpurani.com
+- **Email:** contact@yashpurani.com
+- **LinkedIn:** https://linkedin.com/in/yashpurani
+- **GitHub:** https://github.com/yash-js
+
+---
+
+> _"Make it work. Make it right. Make it scale."_
