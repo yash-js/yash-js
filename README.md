@@ -1,108 +1,80 @@
 # 👋 Hi, I'm Yash Purani
 
-**Full-Stack Product Engineer | SaaS & AI-Integrated Applications**
+**Senior Software Engineer · Full Stack Developer · AI Systems Builder**
 
-I build **scalable, production-ready web and mobile applications** with a strong focus on **backend architecture, performance, and clean system design**.  
-With **4+ years of experience**, I’ve shipped products across **ERP systems, quick commerce, on-demand services, and AI-powered SaaS platforms**.
+I build production SaaS platforms and AI agent systems end to end.
 
-I enjoy owning features **end-to-end** — from system design to deployment — and shipping fast without compromising code quality.
+Currently **Founding Engineer at iSolutions Digital** (UK, remote) — sole engineer responsible for architecture, delivery, and operations of two AI-native products. I've built a **live email support AI agent** that autonomously reads product docs and replies to customer emails with zero human involvement, and an **after-hours voice AI agent** that handles customer calls, resolves queries from live product context, and schedules callbacks independently.
+
+5 years of professional experience across SaaS, eCommerce, EdTech, and AI platforms.
 
 ---
 
-## 🚀 What I Do
+## 🤖 AI & Automation Stack
 
-- Build full-stack applications from scratch
-- Design scalable APIs and backend systems
-- Work with both relational and NoSQL databases
-- Deploy and maintain applications on AWS & serverless platforms
-- Use AI-powered developer tools to accelerate delivery responsibly
+- **n8n** — production agentic workflows
+- **MCP Servers** — modular API orchestration layer
+- **OpenRouter** — LLM integration and prompt engineering
+- **Voice AI** — autonomous calling agents
+- **Cursor AI · Claude Code** — AI-assisted development daily
 
 ---
 
 ## 🧠 Tech Stack
 
-### Languages
-- JavaScript (ES6+)
-- Python
-- Java
+**Frontend**
+React · React Native · Next.js · TypeScript · Tailwind CSS · Redux · ElectronJS · Expo
 
-### Frontend
-- React
-- React Native
-- Next.js
-- Tailwind CSS
-- shadcn/ui
-- HTML5 Canvas
+**Backend**
+Node.js · Express.js · REST APIs · GraphQL · Prisma ORM · Sequelize
 
-### Backend
-- Node.js
-- Express.js
-- REST APIs
-- Serverless Functions
+**Databases**
+PostgreSQL · MongoDB · MySQL · Redis · Firebase · Upstash
 
-### Databases & ORM
-- MongoDB
-- PostgreSQL
-- MySQL
-- Prisma
-- Sequelize
+**Cloud & DevOps**
+AWS (Lambda · EC2 · S3 · Serverless) · Docker · GitHub Actions CI/CD · Vercel
 
-### Cloud & DevOps
-- AWS (EC2, Serverless)
-- Vercel
-- Supabase
-- Docker
-
-### Tooling
-- Cursor AI
-- Git & GitHub
-- Postman
-- Cypress
-- Electron.js
+**Testing**
+Cypress (E2E) · Unit Testing · TDD
 
 ---
 
-## 🏗️ Selected Work
+## 🏗️ Projects
 
-### 🔹 AI-Powered SaaS Platform
-- Led end-to-end development of an AI SaaS platform used by global brands
-- Owned architecture, feature delivery, and deployment
-- Stack: Next.js, Node.js, Prisma, PostgreSQL, AWS
+### 🔹 Aligno — Project Management SaaS
+Multi-workspace Kanban boards, OKRs, real-time notifications, and team collaboration.
+Stack: Next.js · Node.js · PostgreSQL · WebSockets
+🔗 github.com/yash-js/aligno
 
-### 🔹 ERP Device Management System
-- Built a centralized portal to manage smart devices across large networks
-- Enabled faster deployments and reduced operational overhead
-- Stack: React, Node.js, AWS
+### 🔹 Learning Tracker — EdTech Web App
+Converts YouTube playlists into structured learning journeys with streak tracking and per-video notes.
+Stack: Next.js · Node.js · PostgreSQL
+🌐 learn.yashpurani.com
 
-### 🔹 On-Demand Services 
-- Improved backend performance and API reliability
-- Extended admin dashboards with role-based access and real-time insights
-- Stack: Node.js, Express, MongoDB, React
+### 🔹 FynCart — eCommerce Platform
+Multi-role SaaS with Razorpay payments, Redis caching, and Cloudinary media management.
+Stack: Next.js · Node.js · PostgreSQL · Redis
+🔗 github.com/yash-js/fyncart
 
 ### 🔹 Custom Graphic Design Tool
-- Built a Canva-like design tool using HTML5 Canvas
-- No third-party editors or design libraries
-- Stack: Next.js, Canvas API
+Canva-style design tool built without any third-party canvas libraries.
+Stack: Next.js · HTML5 Canvas API
 
 ---
 
 ## 💡 Engineering Principles
 
-- Clean, maintainable, and scalable code
-- Strong API contracts and data modeling
-- Pragmatic engineering over over-engineering
-- Async-friendly, ownership-driven collaboration
+- Own it end to end — architecture to deployment
 - Ship fast, improve continuously
+- AI tooling as core practice, not a shortcut
+- Clean APIs, solid data models, pragmatic decisions
 
 ---
 
-## 📫 Connect With Me
+## 📫 Connect
 
-- **Portfolio:** https://www.yashpurani.com
-- **Email:** contact@yashpurani.com
-- **LinkedIn:** https://linkedin.com/in/yashpurani
-- **GitHub:** https://github.com/yash-js
+🌐 **Portfolio:** yashpurani.com
+💼 **LinkedIn:** linkedin.com/in/yashpurani
+📧 **Email:** yashpurani8@gmail.com
 
----
-
-> _"Make it work. Make it right. Make it scale."_
+Currently based in **India**.
