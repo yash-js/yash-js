@@ -52,7 +52,7 @@ Currently **Founding Engineer at iSolutions Digital** (UK, Remote) — sole engi
 
 <p align="left">
   <a href="https://leetcode.com/u/yash_purani/">
-    <img src="https://img.shields.io/badge/LeetCode-yashpurani8-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Profile" />
+    <img src="https://img.shields.io/badge/LeetCode-yash_purani-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Profile" />
   </a>
   <img src="https://img.shields.io/github/directory-file-count/yash-js/DSA?style=for-the-badge&logo=github&color=2ea44f&label=Problems%20Solved&type=dir" alt="Problems Solved" />
 </p>
