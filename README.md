@@ -36,10 +36,12 @@ Currently **Founding Engineer at iSolutions Digital** (UK, Remote) — sole engi
 
 | Category | Technologies |
 | :--- | :--- |
-| **Frontend** | React, React Native, Next.js, TypeScript, Tailwind CSS, Redux, Electron.js, Expo |
+| **Languages** | JavaScript, TypeScript, Java, Python, SQL |
+| **Frontend** | React, React Native, Next.js, HTML5 Canvas API, Tailwind CSS, Redux, Electron.js, Expo |
 | **Backend** | Node.js, Express.js, REST APIs, GraphQL, Prisma ORM, Sequelize |
 | **Databases** | PostgreSQL, MongoDB, MySQL, Redis, Firebase, Upstash |
 | **Cloud & DevOps** | AWS (Lambda, EC2, S3), Docker, GitHub Actions CI/CD, Vercel |
+| **AI & Automation** | n8n, MCP Servers, OpenRouter, Voice AI Agents, Cursor AI, Claude Code |
 | **Testing** | Cypress (E2E), Jest, TDD |
 
 ---
