@@ -1,102 +1,72 @@
-# 👋 Hi, I'm Yash Purani
+# Hi, I'm Yash Purani
 
-**Senior Software Engineer · Full-Stack Developer · AI Systems Builder**
+**Full Stack & AI Engineer** · Node.js · Python (FastAPI) · React / Next.js · LLMs & RAG
 
-I build production SaaS platforms and AI agent systems end to end.
+I build SaaS products end to end, from the Postgres schema to the AWS deploy, and I build the LLM features that sit inside them.
 
-Currently **Founding Engineer at iSolutions Digital** (UK, Remote) — sole engineer responsible for architecture, delivery, and operations of two AI-native products. I've built a **live email support AI agent** that autonomously reads product docs and replies to customer emails with zero human involvement, and an **after-hours voice AI agent** that handles customer calls, resolves queries from live product context, and schedules callbacks independently.
+Most recently at **Zava AI** (UK, remote), I owned the whole stack of a business operations SaaS used by UK private clinics: database design, APIs, frontend, deployments, and the AI layer. The parts I'm proudest of:
 
-5+ years of professional experience across SaaS, eCommerce, EdTech, and AI platforms.
+- **AI email support agent** that searches a client's knowledge base (RAG) and drafts a reply to a customer query in about 30 seconds
+- **Modular MCP server layer** so every third-party API plugs into the AI features the same way, which cut the integration work for each new client
+- **Workflow detection prototype**: an Electron + React app with a local Python FastAPI service that records user activity, asks GPT-4o whether a multi-step sequence repeats, and generates an n8n automation for it
 
----
-
-## 📊 GitHub Stats & Contributions
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yash-js&theme=tokyo-night&hide_border=true" width="100%" alt="Yash's GitHub Activity Graph" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yash-js&theme=tokyonight&hide_border=true" alt="Yash's GitHub Streak" height="160"/>
-</p>
+~5 years across SaaS, eCommerce, EdTech and AI products. Before Zava, I cut backend response times by 45% on an on-demand laundry platform by fixing slow queries and API logic.
 
 ---
 
-## 🤖 AI & Automation Stack
+## What I work with
 
-- **n8n** — Production agentic workflows
-- **MCP Servers** — Modular API orchestration layer
-- **OpenRouter** — LLM integration & prompt engineering
-- **Voice AI** — Autonomous calling agents
-- **Cursor AI · Claude Code** — Daily AI-assisted engineering workflows
-
----
-
-## 🧠 Tech Stack
-
-| Category | Technologies |
+| | |
 | :--- | :--- |
-| **Languages** | JavaScript, TypeScript, Java, Python, SQL |
-| **Frontend** | React, React Native, Next.js, HTML5 Canvas API, Tailwind CSS, Redux, Electron.js, Expo |
-| **Backend** | Node.js, Express.js, REST APIs, GraphQL, Prisma ORM, Sequelize |
-| **Databases** | PostgreSQL, MongoDB, MySQL, Redis, Firebase, Upstash |
-| **Cloud & DevOps** | AWS (Lambda, EC2, S3), Docker, GitHub Actions CI/CD, Vercel |
-| **AI & Automation** | n8n, MCP Servers, OpenRouter, Voice AI Agents, Cursor AI, Claude Code |
-| **Testing** | Cypress (E2E), Jest, TDD |
+| **GenAI / LLMs** | LLM APIs (OpenAI, OpenRouter), RAG over knowledge bases, prompt engineering, token and cost control, MCP servers, n8n agent workflows |
+| **Backend** | Node.js, Express, Python, FastAPI, Pydantic, SQLModel, REST APIs, WebSockets |
+| **Frontend** | React, Next.js, TypeScript, Redux, Tailwind CSS, React Native, Electron, HTML5 Canvas |
+| **Data** | PostgreSQL, MongoDB, MySQL, Redis, Prisma, Sequelize |
+| **Cloud & DevOps** | AWS (EC2, S3, Lambda), Docker, GitHub Actions, Vercel, Cloudflare Pages |
+| **Testing** | Cypress (E2E), Jest |
+| **Daily tools** | Claude Code, Cursor |
 
 ---
 
-## 🏗️ Featured Projects & Repositories
+## Things I've built
 
-### 🧩 DSA & Problem Solving — Automated LeetCode Sync
+### GitGuise · [gitguise.dev](https://gitguise.dev) · [repo](https://github.com/yash-js/gitguise)
+Open-source desktop app for developers who juggle more than one GitHub account on one machine. A pre-push hook reads the remote URL, picks the right identity, and rewrites HTTPS remotes to SSH so the wrong account never pushes. Ships with a 7-step SSH setup wizard, a repo scanner, and config export/import. Launched on Product Hunt.
+`Electron` `Node.js` `node-pty` `GitHub Actions`
 
-<p align="left">
-  <a href="https://leetcode.com/u/yash_purani/">
-    <img src="https://img.shields.io/badge/LeetCode-yash_purani-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Profile" />
-  </a>
-  <img src="https://img.shields.io/github/directory-file-count/yash-js/DSA?style=for-the-badge&logo=github&color=2ea44f&label=Problems%20Solved&type=dir" alt="Problems Solved" />
+### fastapi-jwt-auth · [repo](https://github.com/yash-js/fastapi-jwt-auth)
+An auth service done properly rather than the tutorial version: Argon2 password hashing, 15-minute JWT access tokens, and **opaque refresh tokens that are stored only as SHA-256 hashes** and rotated on every use, with revocation on logout. Protected routes resolve the current user through a `Depends()` chain with a yield-managed DB session.
+`Python` `FastAPI` `Pydantic` `SQLModel` `PyJWT`
+
+### Aligno · [aligno.in](https://aligno.in)
+Project management SaaS with multiple workspaces, Kanban boards, OKR/goal tracking, and live collaboration and notifications over WebSockets.
+`Next.js` `Node.js` `PostgreSQL` `Prisma` `WebSockets`
+
+### FynCart · [fyncart.store](https://fyncart.store)
+Multi-role eCommerce platform with Razorpay payments, Redis caching, and Cloudinary for media.
+`Next.js` `Node.js` `PostgreSQL` `Redis`
+
+### Learning Tracker · [learn.yashpurani.com](https://learn.yashpurani.com)
+Turns a YouTube playlist into a structured course with streaks and per-video notes.
+`Next.js` `Node.js` `PostgreSQL`
+
+### DSA · [repo](https://github.com/yash-js/DSA) · [LeetCode](https://leetcode.com/u/yash_purani/)
+Every accepted LeetCode submission syncs here automatically, mostly in Java.
+
+<img src="https://img.shields.io/github/directory-file-count/yash-js/DSA?style=flat-square&logo=github&color=2ea44f&label=Problems%20Solved&type=dir" alt="Problems Solved" />
+
+---
+
+## Activity
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yash-js&theme=tokyo-night&hide_border=true" width="100%" alt="GitHub activity graph" />
 </p>
 
-Automated repository that syncs all accepted LeetCode submissions in real time (primarily in Java). Tracks daily problem-solving consistency, data structures, and algorithm implementations.
-* **Stack:** Java · Algorithms & Data Structures · Automated Webhooks / Sync
-* 🔗 [GitHub Repository](https://github.com/yash-js/DSA)
-
 ---
 
-### 🔹 GitGuise — GitHub Identity Manager
-Open-source Desktop application for managing multiple GitHub identities with automated SSH configuration and profile switching.
-* **Stack:** Electron.js · Node.js · TypeScript
-* 🌐 [Live App](https://gitguise.dev)
+## Reach me
 
-### 🔹 Aligno — Project Management SaaS
-Multi-workspace Kanban boards, OKRs, real-time notifications, and team collaboration.
-* **Stack:** Next.js · Node.js · PostgreSQL · Prisma · WebSockets
-* 🌐 [Live App](https://aligno.in)
+[yashpurani.com](https://yashpurani.com) · [LinkedIn](https://linkedin.com/in/yashpurani) · [yashpurani8@gmail.com](mailto:yashpurani8@gmail.com)
 
-### 🔹 Learning Tracker — EdTech Web App
-Converts YouTube playlists into structured learning journeys with streak tracking and per-video notes.
-* **Stack:** Next.js · Node.js · PostgreSQL
-* 🌐 [Live App](https://learn.yashpurani.com)
-
-### 🔹 FynCart — eCommerce Platform
-Multi-role SaaS with Razorpay payments, Redis caching, and Cloudinary media management.
-* **Stack:** Next.js · Node.js · PostgreSQL · Redis
-* 🌐 [Live App](https://fyncart.store)
-
----
-
-## 💡 Engineering Principles
-
-* **End-to-End Ownership** — From DB schema design to cloud deployment and monitoring.
-* **Velocity & Rigor** — Ship fast, iterate continuously, and build scalable core structures.
-* **Native AI Tooling** — AI integrated directly into engineering pipelines as a core practice.
-* **Pragmatic Architecture** — Clean APIs, typed schemas, and performance-first design choices.
-
----
-
-## 📫 Connect & Reach Me
-
-🌐 **Portfolio:** [yashpurani.com](https://yashpurani.com)  
-💼 **LinkedIn:** [linkedin.com/in/yashpurani](https://linkedin.com/in/yashpurani)  
-📧 **Email:** [yashpurani8@gmail.com](mailto:yashpurani8@gmail.com)  
-📍 **Location:** Gujarat, India *(Open to Remote & Global Relocation)*
+Based in Gujarat, India. Open to remote roles and relocation.
