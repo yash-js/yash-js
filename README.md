@@ -18,8 +18,8 @@ Most recently at **Zava AI** (UK, remote), I owned the whole stack of a business
 
 | | |
 | :--- | :--- |
-| **GenAI / LLMs** | LLM APIs (OpenAI, OpenRouter), RAG over knowledge bases, prompt engineering, token and cost control, MCP servers, n8n agent workflows |
-| **Backend** | Node.js, Express, Python, FastAPI, Pydantic, SQLModel, REST APIs, WebSockets |
+| **GenAI / LLMs** | LLM APIs (OpenAI, Groq, OpenRouter), structured outputs with Pydantic, RAG over knowledge bases, prompt engineering, token and cost control, MCP servers, n8n agent workflows |
+| **Backend** | Node.js, Express, Python, FastAPI, Pydantic, REST APIs, WebSockets |
 | **Frontend** | React, Next.js, TypeScript, Redux, Tailwind CSS, React Native, Electron, HTML5 Canvas |
 | **Data** | PostgreSQL, MongoDB, MySQL, Redis, Prisma, Sequelize |
 | **Cloud & DevOps** | AWS (EC2, S3, Lambda), Docker, GitHub Actions, Vercel, Cloudflare Pages |
@@ -34,9 +34,9 @@ Most recently at **Zava AI** (UK, remote), I owned the whole stack of a business
 Open-source desktop app for developers who juggle more than one GitHub account on one machine. A pre-push hook reads the remote URL, picks the right identity, and rewrites HTTPS remotes to SSH so the wrong account never pushes. Ships with a 7-step SSH setup wizard, a repo scanner, and config export/import. Launched on Product Hunt.
 `Electron` `Node.js` `node-pty` `GitHub Actions`
 
-### fastapi-jwt-auth · [repo](https://github.com/yash-js/fastapi-jwt-auth)
-An auth service done properly rather than the tutorial version: Argon2 password hashing, 15-minute JWT access tokens, and **opaque refresh tokens that are stored only as SHA-256 hashes** and rotated on every use, with revocation on logout. Protected routes resolve the current user through a `Depends()` chain with a yield-managed DB session.
-`Python` `FastAPI` `Pydantic` `SQLModel` `PyJWT`
+### Resume Evaluator · [repo](https://github.com/yash-js/resume-evaluator)
+CLI that ranks a folder of resumes against a job description. An LLM on Groq turns the job and each PDF/DOCX resume into structured data, then scores the fit from 0 to 100 with matching skills, missing skills, whether the experience bar is met, and a one-line verdict. Every model response is validated against Pydantic schemas, and the prompts tell the model not to invent skills it can't find in the resume. A bad file or malformed JSON is skipped with a message instead of killing the run.
+`Python` `Pydantic` `Groq` `LLM structured outputs` `uv`
 
 ### Aligno · [aligno.in](https://aligno.in)
 Project management SaaS with multiple workspaces, Kanban boards, OKR/goal tracking, and live collaboration and notifications over WebSockets.
